@@ -182,3 +182,54 @@ img {
   border-radius: 5px;
 }
 
+.comment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comment-item {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-item:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.comment-item:nth-child(even) {
+  background-color: #e9f5ff;
+}
+
+.comment-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment-author img {
+  border-radius: 50%;
+}
+
+.comment-content {
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.delete-comment {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-comment:hover {
+  background-color: #d63030;
+}
